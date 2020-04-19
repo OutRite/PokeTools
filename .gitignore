@@ -1,0 +1,10 @@
+# common save format
+*.sav
+# generation one
+*.gb
+# generation 1.5 and 2
+*.gbc
+# generation 3
+*.gba
+# generation 4 and 5
+*.nds
