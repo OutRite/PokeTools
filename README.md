@@ -8,3 +8,6 @@ It can also let you change your trainers name while keeping the same information
 And, the feature that took me the most time? The save corruptor that half the time just makes the game ignore it.    
 ## Why did you make it?
 I like messing with saves. I also like messing with checksums. Combine them, and you get a ~~waste of time~~ decent Pokemon save resource
+## What can I do?
+Currently, either make my code better, or test my code on a Japanese copy of the game (one you got legitimately).    
+Also I might make some videos about this on my [YouTube channel](https://www.youtube.com/channel/UCCHVD9PkkOcZXw7_XeVZWYw) so you can support me by just putting these in the background
