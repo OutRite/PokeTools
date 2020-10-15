@@ -18,11 +18,13 @@ print("Only letters should be used.")
 player_name = sys.argv[1]
 
 # regex: [A-z]
+# validates all chars A-Z a-z
 
 regex_test = re.findall("[A-z]", player_name)
 
 if (len(regex_test) == len(player_name)):
 	if (len(player_name) >= 8):
+		# make sure we dont go out of bounds
 		print("Name too long!")
 		sys.exit()
 	else:
@@ -31,6 +33,7 @@ if (len(regex_test) == len(player_name)):
 		print("Name length: {}".format(len(player_name)))
 		print("Converting name to Pokemon encoding...")
 		fixed_name = ""
+		# TODO: fix into "for i in playername:"
 		for i in range(0, len(player_name)):
 			# print("i: {}".format(i))
 			# print("original character: {}".format(player_name[i]))
